@@ -1012,7 +1012,7 @@ class Flashlight {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -1028,11 +1028,11 @@ class Flashlight {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['earth'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
       }
     }
