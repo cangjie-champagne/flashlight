@@ -180,7 +180,7 @@ class Flashlight {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['one'],
+      wide: cangjie['twenty'],
       web: []
     };
     
@@ -196,19 +196,19 @@ class Flashlight {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['predict'];
-          break;
-
-        case 'function':
           result.wide = cangjie['day'];
           break;
 
+        case 'function':
+          result.wide = cangjie['earth'];
+          break;
+
         case 'behavior':
-          result.wide = cangjie['corpse'];
+          result.wide = cangjie['mouth'];
           break;
 
         case 'result':
-          result.wide = cangjie['moon'];
+          result.wide = cangjie['one'];
           break;
       }
     }
@@ -220,7 +220,7 @@ class Flashlight {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['field'],
       web: []
     };
     
@@ -236,19 +236,19 @@ class Flashlight {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['corpse'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['people'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
       }
     }
